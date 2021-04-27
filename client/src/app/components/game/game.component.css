@@ -1,0 +1,25 @@
+.grid-game{
+
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.area{
+  flex: 1 0 30%;
+  background-color: blue;
+  border: solid 2px black;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  max-width: 25%;
+  max-height: 25%;
+}
+.game_info{
+  display: flex;
+  border: 2px solid black;
+  width: 250px;
+  height: 150px;
+}
